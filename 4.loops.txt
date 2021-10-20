@@ -1,0 +1,25 @@
+void main() {
+  int num = 1;
+  for (num; num <= 10; num++) {
+    print(num);
+  }
+
+  var list1 = [10, 20, 30, 40, 50];
+  for (var i in list1) {
+    print(i);
+  }
+
+  var a = 1;
+  var maxnum = 10;
+  while (a < maxnum) {
+    print(a);
+    a = a + 1;
+  }
+
+  var b = 1;
+  var maxnum2 = 10;
+  do {
+    print("The value is: ${b}");
+    b = b + 1;
+  } while (b < maxnum2);
+}

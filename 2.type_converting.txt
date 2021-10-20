@@ -1,0 +1,18 @@
+void main() {
+  String x = '100';
+  int y = int.parse(x);
+  print(y);
+
+  String z = "aa";
+  int? t = int.tryParse(z);
+  print(t);
+
+  double x1 = double.parse(x);
+  double? x2 = double.tryParse(z);
+  print(x1);
+  print(x2);
+
+  int x3 = 2000;
+  String x4 = x3.toString();
+  print(x3);
+}

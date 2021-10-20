@@ -1,0 +1,18 @@
+void main() {
+  int x=5;
+  double pi = 3.14;  
+  var msg = "Welcome to JavaTpoint";  
+  bool isValid = true;  
+  
+  //list
+  var list = [1,2,3] ;
+  //maps
+  var student = {'name': 'Joseph',  'age':25, 'Branch': 'Computer Science'}  ;
+  
+  print(x);
+    print(pi);
+    print(msg);
+    print(!isValid);
+  
+ 
+}

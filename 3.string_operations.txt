@@ -1,0 +1,33 @@
+void main() {
+  //interpolation
+  var string2 = 'dartlang';
+  var string3 = '$string2 has ${string2.length} letters';
+  print(string3);
+  
+  //substring
+  var x="test";
+  var y=x.substring(1,3);//es
+  print(y);
+  
+  //split
+  var z="te st";
+  var z1=z.split(' ');
+  print(z1.length);
+  for(int i=0;i<z1.length;i++){
+    print(z1[i]);
+  }
+  
+  //replace
+  String a="aabbaa";
+  String b=a.replaceAll('a','c');
+  print(b);
+  
+  //indexOf
+  String c="aabbcc";
+  int bIndex=c.indexOf('b');
+  print("index of b symbol : "+bIndex.toString());
+  
+  //is empty
+  String e="full";
+  print(e.isEmpty);
+}
